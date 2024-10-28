@@ -3,7 +3,7 @@
   display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
+     height: 100vh; 
     margin: 0;
     margin-left:70px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -44,6 +44,10 @@
 
 .form-group {
   margin-bottom: 15px;
+}
+
+.form-group input#emailorUsername{
+  width: 1000px;
 }
 
 .login-button{

@@ -95,7 +95,7 @@ function SignUp() {
                         </p>
                     )}
                     <form onSubmit={handleSubmit}>
-                        <div className="form-group">
+                        <div className="signupform-group">
                             <label htmlFor="email">Email:</label>
                             <input
                                 type="email"
@@ -109,7 +109,7 @@ function SignUp() {
                                 <span className="error-message">{errors.email}</span>
                             )}
                         </div>
-                        <div className="form-group">
+                        <div className="signupform-group">
                             <label htmlFor="username">Username:</label>
                             <input
                                 type="text"
@@ -123,7 +123,7 @@ function SignUp() {
                                 <span className="error-message">{errors.username}</span>
                             )}
                         </div>
-                        <div className="form-group">
+                        <div className="signupform-group">
                             <label htmlFor="password">Password:</label>
                             <input
                                 type="password"

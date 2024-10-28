@@ -268,12 +268,12 @@ function Profile() {
                 >
                     Posts
                 </button>
-                <button
+                {/* <button
                     className={`tab-button ${activeTab === 'reposts' ? 'active' : ''}`}
                     onClick={() => handleTabClick('reposts')}
                 >
                     Reposts
-                </button>
+                </button> */}
             </div>
 
             {activeTab === 'posts' && (
@@ -315,11 +315,11 @@ function Profile() {
                                             style={{ padding: 0, margin: 0, marginBottom: 15, border: 'none', background: 'none' }}>
                                             <FaRegCommentAlt className='fs-4' />
                                         </button>
-                                        <button
+                                        {/* <button
                                             onClick={() => handleRepost(post._id)} // Trigger repost
                                             style={{ padding: 0, margin: 0, marginBottom: 15, border: 'none', background: 'none' }}>
                                             <BiRepost className='fs-2' />
-                                        </button>
+                                        </button> */}
                                         <button
                                             onClick={() => openDeleteModal(post._id)} // Open delete confirmation modal
                                             style={{ padding: 0, margin: 0, marginBottom: 15, border: 'none', background: 'none' }}>
@@ -390,11 +390,11 @@ function Profile() {
                             style={{ padding: 0, margin: 0 }}>
                             <FaRegCommentAlt className='fs-4' />
                         </button>
-                        <button
+                        {/* <button
                             onClick={() => handleRepost(selectedPost._id)} className='modalBtn'
                             style={{ padding: 0, margin: 0 }}>
                             <BiRepost className='fs-2' />
-                        </button>
+                        </button> */}
                         <button
                             onClick={() => openDeleteModal(selectedPost._id)} className='modalBtn'
                             style={{ padding: 0, margin: 0 }}>

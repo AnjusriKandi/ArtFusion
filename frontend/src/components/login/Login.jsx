@@ -85,7 +85,7 @@ function Login() {
             <div className="error-message">{generalError}</div>
           )}
           <form onSubmit={handleSubmit}>
-            <div className="form-group">
+            <div className="form-group " >
               <label htmlFor="emailOrUsername">Email or Username:</label>
               <input
                 type="text"
@@ -94,6 +94,7 @@ function Login() {
                 value={emailOrUsername}
                 onChange={handleChange}
                 required
+                
               />
               {errors.emailOrUsername && (
                 <span className="error-message">{errors.emailOrUsername}</span>
@@ -108,6 +109,8 @@ function Login() {
                 value={password}
                 onChange={handleChange}
                 required
+                width={50}
+              
               />
               {errors.password && (
                 <span className="error-message">{errors.password}</span>

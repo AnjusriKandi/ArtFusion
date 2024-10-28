@@ -51,17 +51,17 @@
     font-size: 2em;
   }
   
-  .form-group {
+  .signupform-group {
     margin-bottom: 20px;
   }
   
-  .form-group label {
+  .signupform-group label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
   }
   
-  .form-group input {
+  .signupform-group input {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
