@@ -45,11 +45,16 @@ cd frontend
 npm install
 npm run dev
 ```
+
+---
+
 ## 📈 Future Enhancements
 
 - AI-powered art validation
 - Real-time messaging and collaboration tools
 - Public galleries and curated artist showcases
+
+---
 
 ## 🤝 Contributing
 Pull requests are welcome!
