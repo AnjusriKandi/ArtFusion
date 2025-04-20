@@ -1,6 +1,6 @@
 # 🎨 ArtFusion
 
-<p align="justify">**ArtFusion** is a vibrant MERN stack-based platform built for artists and art enthusiasts to share, explore, and connect through creativity. It offers features like user profiles, post sharing, reposting, commenting, and event collaboration — all in one dynamic space.</p>
+<p align="justify"> ArtFusion is a vibrant MERN stack-based platform built for artists and art enthusiasts to share, explore, and connect through creativity. It offers features like user profiles, post sharing, reposting, commenting, and event collaboration — all in one dynamic space.</p>
 
 ---
 
